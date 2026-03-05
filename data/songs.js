@@ -1,9 +1,13 @@
+import daftPunkCover from "../assets/daft_punk_cover.jpg";
+import kendrickCover from "../assets/kendrick_cover.jpg";
+import mjCover from "../assets/michael_jackson_cover.jpg";
+
 export const songs = [
   {
     id: 1,
     title: 'Fragments of Time (feat. Todd Edwards)',
     artist: 'Daft Punk, Todd Edwards',
-    cover: require('../assets/daft_punk_cover.jpg'),
+    cover: daftPunkCover,
     explicit: false,
     saved: true,
     bgColor: '#59627A',
@@ -14,7 +18,7 @@ export const songs = [
     id: 2,
     title: 'King Kunta',
     artist: 'Kendrick Lamar',
-    cover: require('../assets/kendrick_cover.jpg'),
+    cover: kendrickCover,
     explicit: true,
     saved: true,
     bgColor: '#212226',
@@ -25,7 +29,7 @@ export const songs = [
     id: 3,
     title: 'Dangerous',
     artist: 'Michael Jackson',
-    cover: require('../assets/michael_jackson_cover.jpg'),
+    cover: mjCover,
     explicit: false,
     saved: false,
     bgColor: '#811f22',
